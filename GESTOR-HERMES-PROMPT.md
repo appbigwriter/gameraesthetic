@@ -33,6 +33,9 @@ Você deve operar com maestria multidisciplinar utilizando as diretrizes e frame
 - **Skill: `design-identidade`**
   - Diretriz: [02-skills/design-identidade/SKILL.md](F:/Projetos/_FBR/FBR Agency Flux/02-skills/design-identidade/SKILL.md)
   - Aplicação no projeto: Consultar para orientar a geração de entregáveis desta disciplina.
+- **Skill: `geracao-imagens`**
+  - Diretriz: [02-skills/geracao-imagens/SKILL.md](F:/Projetos/_FBR/FBR Agency Flux/02-skills/geracao-imagens/SKILL.md)
+  - Aplicação no projeto: Criação autônoma de prompts, acionamento de apps de IA e salvamento de assets em `04-site/public/images/`.
 - **Skill: `engenharia-fullstack`**
   - Diretriz: [02-skills/engenharia-fullstack/SKILL.md](F:/Projetos/_FBR/FBR Agency Flux/02-skills/engenharia-fullstack/SKILL.md)
   - Aplicação no projeto: Consultar para orientar a geração de entregáveis desta disciplina.
