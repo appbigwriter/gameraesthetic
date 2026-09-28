@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { articles, getArticle } from '../../../lib/content';
 import { notFound } from 'next/navigation';
@@ -50,7 +51,7 @@ export default async function ArticlePage({
 
         {article.image && (
           <div className="article-banner">
-            <img src={article.image} alt={article.title} />
+            <Image src={article.image} alt={article.imageAlt} width={1200} height={800} sizes="(max-width: 780px) 100vw, 780px" priority />
           </div>
         )}
 

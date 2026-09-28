@@ -15,29 +15,28 @@ Existem 5 imagens em `public/images/`, mas nenhuma está conectada ao JSX atual 
 | `articles/artigo-02-wired-vs-wireless-headsets.png` | 1536×1024 | existente | capa de headsets; produto genérico sem marca visível |
 | `articles/artigo-03-beginner-gaming-setup.png` | 1536×1024 | existente | capa de setup iniciante; composição ampla para card/hero |
 
-## Assets que ainda precisam ser criados
+## Assets criados nesta execução
 
-A decisão editorial exige 10 guias no lançamento. Para completar o catálogo visual, faltam 7 capas editoriais:
+As 7 capas que faltavam foram geradas e salvas em `articles/`:
 
-| Slug | Arquivo proposto | Direção visual |
-|---|---|---|
-| `gaming-compatibility-ps5-xbox-pc` | `articles/gaming-compatibility-ps5-xbox-pc.png` | mesa com console/PC e conexões claramente separadas; sem logos/marcas registradas |
-| `mechanical-keyboard-gaming-work` | `articles/mechanical-keyboard-gaming-work.png` | teclado mecânico em setup híbrido trabalho/gaming; foco em layout e textura |
-| `1080p-vs-1440p-gaming` | `articles/1080p-vs-1440p-gaming.png` | composição comparativa de duas telas; sem claims numéricos inventados na imagem |
-| `clean-gaming-desk-small-rooms` | `articles/clean-gaming-desk-small-rooms.png` | setup compacto, organização vertical e cable management visível |
-| `what-refresh-rate-means` | `articles/what-refresh-rate-means.png` | monitor e abstração visual de atualização; evitar texto ilegível gerado na imagem |
-| `gaming-desk-ergonomics-basics` | `articles/gaming-desk-ergonomics-basics.png` | enquadramento lateral de mesa, cadeira, monitor e postura neutra; sem alegação médica |
-| `gaming-setup-three-budgets` | `articles/gaming-setup-three-budgets.png` | três zonas de setup por nível de orçamento, sem valores ou marcas não verificados |
+- `gaming-compatibility-ps5-xbox-pc.png`
+- `mechanical-keyboard-gaming-work.png`
+- `1080p-vs-1440p-gaming.png`
+- `clean-gaming-desk-small-rooms.png`
+- `what-refresh-rate-means.png`
+- `gaming-desk-ergonomics-basics.png`
+- `gaming-setup-three-budgets.png`
 
-## Assets de sistema recomendados
+Também foram criados:
 
-Ainda não existem assets específicos para:
+- `brand/logo-gamer-aesthetic.svg`
+- `brand/favicon.svg`
+- `social/og-default.png`
 
-1. `brand/logo-gamer-aesthetic.svg` — wordmark ou símbolo simples para header/footer;
-2. `brand/favicon.svg` e `app/icon.svg` — favicon alinhado à marca;
-3. `social/og-default.png` — 1200×630 para compartilhamento da homepage;
-4. `social/og-article-template.png` — fallback 1200×630 para artigos sem capa;
-5. `authors/tara-lindqvist-wide.png` — opcional, somente se o bloco About exigir composição horizontal.
+Os 10 registros do catálogo agora têm `image` e `imageAlt`; homepage, cards, página de artigos e metadata Open Graph usam os assets correspondentes.
+## Assets ainda opcionais
+
+- `authors/tara-lindqvist-wide.png` — somente se o bloco About exigir composição horizontal.
 
 ## Critérios de produção
 

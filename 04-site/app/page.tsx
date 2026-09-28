@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { articles, categories } from '../lib/content';
 
@@ -7,10 +8,7 @@ export default function Home() {
       {/* Hero com Imagem Imersiva */}
       <header className="hero-wrapper">
         <div className="hero-bg">
-          <img 
-            src="/images/hero/hero-main.png" 
-            alt="Minimalist Battlestation Gaming Setup" 
-          />
+          <Image src="/images/hero/hero-main.png" alt="Minimalist Gamer Aesthetic battlestation" fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
           <div className="hero-overlay" />
         </div>
         <div className="hero-content">
@@ -46,7 +44,7 @@ export default function Home() {
             <article className="card" key={article.slug}>
               {article.image && (
                 <div className="card-thumb">
-                  <img src={article.image} alt={article.title} loading="lazy" />
+                  <Image src={article.image} alt={article.imageAlt} width={600} height={400} sizes="(max-width: 760px) 100vw, 33vw" />
                 </div>
               )}
               <div className="card-body">
