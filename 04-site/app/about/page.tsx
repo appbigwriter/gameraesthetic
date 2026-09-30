@@ -13,7 +13,7 @@ export default function About() {
       {/* Box Editorial do Gestor */}
       <div className="author-box">
         <div className="author-avatar">
-          <Image src="/images/authors/tara-lindqvist.png" alt="Tara Lindqvist" width={160} height={160} />
+          <Image src="/images/authors/tara-lindqvist.webp" alt="Tara Lindqvist" width={160} height={160} />
         </div>
         <div>
           <h3 style={{ margin: '0 0 4px', fontSize: '1.2rem' }}>Tara Lindqvist</h3>

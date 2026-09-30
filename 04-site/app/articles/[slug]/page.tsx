@@ -21,7 +21,7 @@ export async function generateMetadata({
         openGraph: {
           title: article.title,
           description: article.description,
-          images: article.image ? [{ url: article.image }] : [],
+          images: article.image ? [{ url: `https://gameraesthetic.fbr.news${article.image}` }] : [],
         },
       }
     : { title: 'Guide not found' };

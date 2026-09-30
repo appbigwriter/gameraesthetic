@@ -8,7 +8,7 @@ export default function Home() {
       {/* Hero com Imagem Imersiva */}
       <header className="hero-wrapper">
         <div className="hero-bg">
-          <Image src="/images/hero/hero-main.png" alt="Minimalist Gamer Aesthetic battlestation" fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
+          <Image src="/images/hero/hero-main.webp" alt="Minimalist Gamer Aesthetic battlestation" fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
           <div className="hero-overlay" />
         </div>
         <div className="hero-content">

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { articles, categories } from '../../lib/content';
 
@@ -28,7 +29,7 @@ export default function ArticlesPage() {
           <article className="card" key={article.slug}>
             {article.image && (
               <div className="card-thumb">
-                <img src={article.image} alt={article.title} loading="lazy" />
+                <Image src={article.image} alt={article.imageAlt} fill sizes="(max-width: 760px) 100vw, 33vw" />
               </div>
             )}
             <div className="card-body">
